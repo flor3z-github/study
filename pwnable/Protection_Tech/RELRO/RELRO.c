@@ -13,7 +13,7 @@ void main()
 		printf("Input Pointer Address: ");
 		fgets(address, 16, stdin);
 
-		pointer = strtol(address, 0, 16);		// strtol(string, , Hex)
+		pointer = strtol(address, 0, 16);		// strtol(string, 0x, Hex) -> 0x 이후부터 문자열을 16진수로 변환
 		printf("Pointer Address: %p\n", pointer);
 
 		printf("Input pointer Text: ");
