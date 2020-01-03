@@ -1,0 +1,6 @@
+break *main+157
+break *main+99
+break *check_passcode+58
+break *core
+break *core+107
+
